@@ -55,7 +55,7 @@
                         </goals>
                     </execution>
 
-                    <git addexecution>
+                    <execution>
                         <id>check</id>
                         <goals>
                             <goal>check</goal>
@@ -73,7 +73,7 @@
                                 </rule>
                             </rules>
                         </configuration>
-                    </gitexecution>
+                    </execution>
 
                 </executions>
             </plugin>
